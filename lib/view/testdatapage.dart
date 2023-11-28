@@ -94,7 +94,7 @@ class TestDataPageState extends State<TestDataPage> {
                       Column(children: [
                         Padding(
                             padding:
-                                const EdgeInsets.only(bottom: 10, right: 50),
+                                const EdgeInsets.only(bottom: 10, right: 15),
                             child: IconButton(
                                 icon: const Icon(Icons.assignment_add,
                                     size: 60,
@@ -114,7 +114,7 @@ class TestDataPageState extends State<TestDataPage> {
                       Column(children: [
                         Padding(
                             padding:
-                                const EdgeInsets.only(bottom: 10, right: 50),
+                                const EdgeInsets.only(bottom: 10, right: 15),
                             child: IconButton(
                                 icon: const Icon(Icons.assignment_add,
                                     size: 60,
@@ -135,7 +135,7 @@ class TestDataPageState extends State<TestDataPage> {
                       Column(children: [
                         Padding(
                             padding:
-                                const EdgeInsets.only(bottom: 10, right: 50),
+                                const EdgeInsets.only(bottom: 10, right: 15),
                             child: IconButton(
                                 icon: const Icon(Icons.assignment_add,
                                     size: 60,
@@ -156,7 +156,7 @@ class TestDataPageState extends State<TestDataPage> {
                       Column(children: [
                         Padding(
                             padding:
-                                const EdgeInsets.only(bottom: 10, right: 50),
+                                const EdgeInsets.only(bottom: 10, right: 15),
                             child: IconButton(
                                 icon: const Icon(Icons.assignment,
                                     size: 60,
