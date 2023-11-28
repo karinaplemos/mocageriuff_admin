@@ -63,7 +63,7 @@ class PatientRegistrationState extends State<PatientRegistration> {
               children: [
                 IconButton(
                   icon: Image.asset('assets/images/logout.png',
-                  width: 20, height: 20),
+                  width: 25, height: 25),
                   onPressed: () async {
                     await context.read<AppService>().signOut(context);
                   },
@@ -102,7 +102,7 @@ class PatientRegistrationState extends State<PatientRegistration> {
                         Column(children: [
                           Padding(
                               padding:
-                                  const EdgeInsets.only(bottom: 30, right: 30),
+                                  const EdgeInsets.only(bottom: 10, right: 30),
                               child: IconButton(
                                   icon: const Icon(Icons.assignment_add,
                                       size: 60,
@@ -126,7 +126,7 @@ class PatientRegistrationState extends State<PatientRegistration> {
                         Column(children: [
                           Padding(
                               padding:
-                                  const EdgeInsets.only(bottom: 30, right: 30),
+                                  const EdgeInsets.only(bottom: 10, right: 30),
                               child: IconButton(
                                   icon: const Icon(Icons.assignment_add,
                                       size: 60,
@@ -150,7 +150,7 @@ class PatientRegistrationState extends State<PatientRegistration> {
                         Column(children: [
                           Padding(
                               padding:
-                                  const EdgeInsets.only(bottom: 30, right: 30),
+                                  const EdgeInsets.only(bottom: 10, right: 30),
                               child: IconButton(
                                   icon: const Icon(Icons.assignment_add,
                                       size: 60,
@@ -173,7 +173,7 @@ class PatientRegistrationState extends State<PatientRegistration> {
                         Column(children: [
                           Padding(
                               padding:
-                                  const EdgeInsets.only(bottom: 30, right: 30),
+                                  const EdgeInsets.only(bottom: 10, right: 30),
                               child: IconButton(
                                   icon: const Icon(Icons.assignment,
                                       size: 60,
