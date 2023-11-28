@@ -307,7 +307,7 @@ class LoginPageState extends State<LoginPage> {
                       ),
                     ),
                   ),
-                  if (message == "Senha ou e-mail inválidos!" ||
+                  if (message == "Senha ou e-mail inválido!" ||
                       message == "Erro ao efetuar login!")
                     Padding(
                         padding: const EdgeInsets.only(top: 14),
