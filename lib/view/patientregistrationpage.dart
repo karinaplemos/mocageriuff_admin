@@ -63,7 +63,7 @@ class PatientRegistrationState extends State<PatientRegistration> {
               children: [
                 IconButton(
                   icon: Image.asset('assets/images/logout.png'),
-                  iconSize: 30,
+                  iconSize: 5,
                   onPressed: () async {
                     await context.read<AppService>().signOut(context);
                   },

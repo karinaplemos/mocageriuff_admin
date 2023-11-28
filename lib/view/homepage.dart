@@ -73,7 +73,7 @@ class HomePageState extends State<HomePage> {
               children: [
                 IconButton(
                   icon: Image.asset('assets/images/logout.png'),
-                  iconSize: 30,
+                  iconSize: 5,
                   onPressed: () async {
                     await context.read<AppService>().signOut(context);
                   },
@@ -211,7 +211,7 @@ class HomePageState extends State<HomePage> {
                     key: homeKey,
                     child: Column(children: <Widget>[
                       const Text(
-                        "Aplicação do teste MOCA",
+                        "Aplicação do teste MoCA",
                         style: TextStyle(
                             fontSize: 22.0,
                             color: Colors.black,

@@ -262,7 +262,8 @@ class LoginPageState extends State<LoginPage> {
                                                                       setState(
                                                                           () {
                                                                         message =
-                                                                            "E-mail enviado!";
+                                                                            "E-mail de recuperação de senha enviado!";
+                                                                        textEmailReset.clear();
                                                                         Navigator.of(context)
                                                                             .pop();
                                                                       });
@@ -270,7 +271,8 @@ class LoginPageState extends State<LoginPage> {
                                                                       setState(
                                                                           () {
                                                                         message =
-                                                                            "Erro ao enviar e-mail";
+                                                                            "Erro ao enviar e-mail de recuperação de senha";
+                                                                        textEmailReset.clear();
                                                                         Navigator.of(context)
                                                                             .pop();
                                                                       });
@@ -288,6 +290,7 @@ class LoginPageState extends State<LoginPage> {
                                                 child: const Text("Fechar"),
                                                 onPressed: () {
                                                   setState(() {
+                                                    textEmailReset.clear();
                                                     message = "";
                                                   });
                                                   Navigator.of(context).pop();
@@ -323,8 +326,8 @@ class LoginPageState extends State<LoginPage> {
                                     });
                                   })),
                         )),
-                  if (message == "E-mail enviado!" ||
-                      message == "Erro ao enviar e-mail")
+                  if (message == "E-mail de recuperação de senha enviado!" ||
+                      message == "Erro ao enviar e-mail de recuperação de senha")
                     Padding(
                         padding: const EdgeInsets.only(top: 14),
                         child: Container(
