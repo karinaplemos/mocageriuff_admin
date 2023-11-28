@@ -98,7 +98,7 @@ class DoctorRegistrationPageState extends State<DoctorRegistrationPage> {
                         Column(children: [
                           Padding(
                               padding:
-                                  const EdgeInsets.only(bottom: 10, right: 30),
+                                  const EdgeInsets.only(bottom: 10, right: 50),
                               child: IconButton(
                                   icon: const Icon(Icons.assignment_add,
                                       size: 60,
@@ -122,7 +122,7 @@ class DoctorRegistrationPageState extends State<DoctorRegistrationPage> {
                         Column(children: [
                           Padding(
                               padding:
-                                  const EdgeInsets.only(bottom: 10, right: 30),
+                                  const EdgeInsets.only(bottom: 10, right: 50),
                               child: IconButton(
                                   icon: const Icon(Icons.assignment_add,
                                       size: 60,
@@ -146,7 +146,7 @@ class DoctorRegistrationPageState extends State<DoctorRegistrationPage> {
                         Column(children: [
                           Padding(
                               padding:
-                                  const EdgeInsets.only(bottom: 10, right: 30),
+                                  const EdgeInsets.only(bottom: 10, right: 50),
                               child: IconButton(
                                   icon: const Icon(Icons.assignment_add,
                                       size: 60,
@@ -169,7 +169,7 @@ class DoctorRegistrationPageState extends State<DoctorRegistrationPage> {
                         Column(children: [
                           Padding(
                               padding:
-                                  const EdgeInsets.only(bottom: 10, right: 30),
+                                  const EdgeInsets.only(bottom: 10, right: 50),
                               child: IconButton(
                                   icon: const Icon(Icons.assignment,
                                       size: 60,
