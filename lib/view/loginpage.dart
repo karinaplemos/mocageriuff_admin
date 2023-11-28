@@ -132,7 +132,7 @@ class LoginPageState extends State<LoginPage> {
                             if (alertMessage ==
                                 "The password is invalid or the user does not have a password.") {
                               setState(() {
-                                message = "Senha ou e-mail inválidos!";
+                                message = "Senha ou e-mail inválido!";
                               });
                             }
                             if (alertMessage != "Signed In" &&
