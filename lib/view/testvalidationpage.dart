@@ -777,6 +777,8 @@ class ValidateTestPageState extends State<ValidateTestPage> {
                                     width: 150,
                                     child: ElevatedButton(
                                       style: ButtonStyle(
+                                        backgroundColor:
+                                          MaterialStateProperty.all(const Color(0xFF0097b2)),
                                         shape: MaterialStateProperty.all<
                                             RoundedRectangleBorder>(
                                           RoundedRectangleBorder(
