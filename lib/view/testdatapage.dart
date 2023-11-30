@@ -356,6 +356,7 @@ class TestDataPageState extends State<TestDataPage> {
                                       child: Card(
                                         color: Colors.white,
                                         child: ExpansionTile(
+                                          backgroundColor: Colors.white,
                                           title: Text(
                                             'Data da aplicação: $formattedDate\n',
                                             style: const TextStyle(
@@ -363,7 +364,7 @@ class TestDataPageState extends State<TestDataPage> {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           subtitle: Text(
-                                              'Médico aplicador: ${testData['doctorName']}\nPaciente: $patientName\nPontuação total: ${testData['finalScore']}\nTempo total gasto: $totalHours horas, $totalMinutes minutos, $totalSeconds segundos',
+                                              'Médico aplicador: ${testData['doctorName']}\n\nPaciente: $patientName\n\nPontuação total: ${testData['finalScore']}\n\nTempo total gasto: $totalHours horas, $totalMinutes minutos, $totalSeconds segundos',
                                               style: const TextStyle(
                                                   fontSize: 16.0,
                                                   fontWeight: FontWeight.w100)),
