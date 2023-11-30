@@ -322,7 +322,7 @@ class HomePageState extends State<HomePage> {
                             ),
                           ])),
                       Padding(
-                        padding: const EdgeInsets.only(top: 40),
+                        padding: const EdgeInsets.only(top: 80),
                         child: ElevatedButton(
                           style: ButtonStyle(
                             shape: MaterialStateProperty.all<
