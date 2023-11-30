@@ -119,9 +119,9 @@ class ValidateTestPageState extends State<ValidateTestPage> {
           testNamingOne = namingOne;
           testNamingTwo = namingTwo;
           testNamingThree = namingThree;
-          testUrlImageOne = urlImageOne;
-          testUrlImageTwo = urlIImageTwo;
-          testUrlImageThree = urlIImageTree;
+          testUrlImageOne = "https://cors-anywhere.herokuapp.com/"+urlImageOne;
+          testUrlImageTwo = "https://cors-anywhere.herokuapp.com/"+urlIImageTwo;
+          testUrlImageThree = "https://cors-anywhere.herokuapp.com/"+urlIImageTree;
           testsTimes = times;
         });
       }

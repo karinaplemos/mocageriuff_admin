@@ -315,6 +315,10 @@ class TestDataPageState extends State<TestDataPage> {
 
                                   String formattedDate =
                                       DateFormat('dd/MM/yyyy').format(date);
+                                  
+                                  String urlCubeImg =  "https://cors-anywhere.herokuapp.com/"+testData['imageCube'];
+                                  String urlClockImg =  "https://cors-anywhere.herokuapp.com/"+testData['imageClock'];
+                                  String urlPointsImg =  "https://cors-anywhere.herokuapp.com/"+testData['imagePoints'];
 
                                   if (testData['times'] != null &&
                                       testData['times'].isNotEmpty) {
@@ -376,7 +380,7 @@ class TestDataPageState extends State<TestDataPage> {
                                               child: Column(children: [
                                                 Column(children: [
                                                   Image.network(
-                                                    testData['imageCube'],
+                                                    urlCubeImg,
                                                     height: 400,
                                                     fit: BoxFit.cover,
                                                   ),
@@ -392,7 +396,7 @@ class TestDataPageState extends State<TestDataPage> {
                                                 const SizedBox(height: 20),
                                                 Column(children: [
                                                   Image.network(
-                                                    testData['imageClock'],
+                                                    urlClockImg,
                                                     height: 400,
                                                     fit: BoxFit.cover,
                                                   ),
@@ -408,7 +412,7 @@ class TestDataPageState extends State<TestDataPage> {
                                                 const SizedBox(height: 20),
                                                 Column(children: [
                                                   Image.network(
-                                                    testData['imagePoints'],
+                                                    urlPointsImg,
                                                     height: 500,
                                                     fit: BoxFit.cover,
                                                   ),
