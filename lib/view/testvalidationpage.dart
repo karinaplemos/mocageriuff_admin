@@ -806,7 +806,9 @@ class ValidateTestPageState extends State<ValidateTestPage> {
                                               builder: (BuildContext context) {
                                                 return AlertDialog(
                                                   title: const Text(
-                                                      "Atribua todas as pontuações antes de prosseguir!"),
+                                                      "Atribua todas as pontuações antes de prosseguir!",    
+                                                      style: TextStyle(fontSize: 16)
+                                                  ),
                                                   actions: [
                                                     TextButton(
                                                       onPressed: () {
