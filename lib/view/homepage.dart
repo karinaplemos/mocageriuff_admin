@@ -211,7 +211,7 @@ class HomePageState extends State<HomePage> {
                     key: homeKey,
                     child: Column(children: <Widget>[
                       const Text(
-                        "Aplicação do teste MoCA",
+                        "Aplicação do MoCA",
                         style: TextStyle(
                             fontSize: 22.0,
                             color: Colors.black,
