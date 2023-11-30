@@ -885,6 +885,7 @@ class ValidateTestPageState extends State<ValidateTestPage> {
                                           Icon(
                                             Icons.save,
                                             size: 15.0,
+                                            color: Colors.white,
                                           ),
                                         ],
                                       ),
