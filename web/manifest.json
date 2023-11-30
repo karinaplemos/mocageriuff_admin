@@ -8,6 +8,15 @@
     "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
+    "hosting": {  
+        "headers": [ {
+          "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+          "headers": [ {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          } ]
+        } ]
+    },
     "icons": [
         {
             "src": "icons/Icon-192.png",
