@@ -186,7 +186,7 @@ class PatientRegistrationState extends State<PatientRegistration> {
                                                 const TestDataPage()));
                                   })),
                           const Text(
-                            "Testes aplicados",
+                            "Consultar testes",
                             style:
                                 TextStyle(fontSize: 16.0, color: Colors.white),
                           ),

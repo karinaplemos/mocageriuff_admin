@@ -167,7 +167,7 @@ class TestDataPageState extends State<TestDataPage> {
                                           const TestDataPage()));
                                 })),
                         const Text(
-                          "Testes aplicados",
+                          "Consultar testes",
                           style: TextStyle(fontSize: 16.0, color: Colors.white),
                         ),
                       ]),
@@ -182,7 +182,7 @@ class TestDataPageState extends State<TestDataPage> {
                         padding: EdgeInsets.only(top: 20),
                         child: Center(
                             child: Text(
-                          "Testes Aplicados",
+                          "Consultar testes aplicados",
                           style: TextStyle(
                               fontSize: 22.0,
                               color: Colors.black,

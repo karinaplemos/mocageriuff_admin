@@ -297,7 +297,7 @@ class ValidateTestPageState extends State<ValidateTestPage> {
                                       const DoctorRegistrationPage()));
                             })),
                     const Text(
-                      "Testes aplicados",
+                      "Consultar testes",
                       style: TextStyle(fontSize: 16.0, color: Colors.white),
                     ),
                   ]),
@@ -311,7 +311,7 @@ class ValidateTestPageState extends State<ValidateTestPage> {
                   child: Padding(
                       padding: EdgeInsets.only(top: 20),
                       child: Text(
-                        "Avaliação do Teste",
+                        "Avaliação do teste",
                         style: TextStyle(
                             fontSize: 22.0,
                             color: Colors.black,
