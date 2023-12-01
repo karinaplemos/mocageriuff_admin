@@ -1,4 +1,4 @@
-## Produto do Trabalho de Conclusão de Curso, cujo título é Adaptação de testes neuropsicológicos através de plataformas web. 
+## Produto do Trabalho de Conclusão de Curso, cujo título é Adaptação de testes neuropsicológicos através de sistemas web. 
 
 MoCA GeriUFF - Interface do médico
 
