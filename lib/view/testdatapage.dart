@@ -182,7 +182,7 @@ class TestDataPageState extends State<TestDataPage> {
                         padding: EdgeInsets.only(top: 20),
                         child: Center(
                             child: Text(
-                          "Consultar testes aplicados",
+                          "Consulta de testes aplicados",
                           style: TextStyle(
                               fontSize: 22.0,
                               color: Colors.black,
